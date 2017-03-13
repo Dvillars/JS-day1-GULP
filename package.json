@@ -1,0 +1,15 @@
+{
+  "name": "demo_project",
+  "version": "1.0.0",
+  "description": "A quick project trying to use npm, gulp, and other things",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"test\""
+  },
+  "author": "us",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1"
+  }
+}
