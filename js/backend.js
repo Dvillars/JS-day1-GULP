@@ -1,8 +1,8 @@
-function Paddle(paddleColor) {
-  this.color = paddleColor;
-};
+function Calculator(skinName) {
+  this.skin = skinName;
+}
 
-Paddle.prototype.pingPong = function (goal) {
+Calculator.prototype.pingPong = function(goal) {
   var output = [];
   for (var i = 1; i <= goal; i++) {
     if (i % 15 === 0) {
@@ -16,6 +16,6 @@ Paddle.prototype.pingPong = function (goal) {
     }
   }
   return output;
-};
+}
 
-exports.paddleModule = Paddle;
+exports.calculatorModule = Calculator;
